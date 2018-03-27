@@ -1,0 +1,474 @@
+/*
+	@Theme Name  : Lightbreeze
+	@Theme URI   : http://zafirehd.deviantart.com/art/Lightbreeze-By-Zafire-Designs-501265315
+	@Author      : E. Darksider
+	@Author      : ZafireHD
+	@Author URI  : http://code-path.com/profile/darksider/
+	@Description : Lightbreeze is a unique webdesign. It contains over 100 customizable layers
+				   and is completely layered.
+				   Lightbreeze is a one of a kind website design. It is light and user friendly, yet
+				   offers a cool gaming style.
+	@Version     : 1.2
+	@License     : Proprietary software License
+	@License URI : https://en.wikipedia.org/wiki/Proprietary_software
+*/
+
+@charset "utf-8";
+
+/* Messages pagination */
+#messages_pagination a {
+	margin: 0;
+	display: block;
+}
+
+#poll_answers .poll_answer {
+	margin-left: 10px;
+}
+
+/* Modal boxes: alert & confirm */
+.popup_links {
+	width: auto;
+	text-align: center;
+}
+
+.popup a {
+	width: auto;
+	max-height: 21px;
+	float: none;
+	border: none !important;
+	cursor: pointer;
+	display: inline-block;
+	padding: 5px 20px !important;
+	font-size: 14px;
+	text-align: center;
+	box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.5), inset 0 1px 0 0 #b1a58c, inset 0 2px 0 0 #b6ac91, inset 0 -3px 0 0 rgba(0, 0, 0, 0.2) !important;
+	-moz-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.5), inset 0 1px 0 0 #b1a58c, inset 0 2px 0 0 #b6ac91, inset 0 -3px 0 0 rgba(0, 0, 0, 0.2) !important;
+	-webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.5), inset 0 1px 0 0 #b1a58c, inset 0 2px 0 0 #b6ac91, inset 0 -3px 0 0 rgba(0, 0, 0, 0.2) !important;
+	line-height: 1.5;
+	font-family: NyalaRegular;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.20) !important;
+	border-radius: 5px 0 5px 0;
+	-moz-border-radius: 5px 0 5px 0;
+	-webkit-border-radius: 5px 0 5px 0;
+	text-transform: uppercase !important;
+	background-color: transparent !important;
+	background-image: url(../images/btn-sprite.png) !important;
+	background-repeat: repeat-x !important;
+	background-position: 0 0;
+}
+
+.popup_button, 
+.popup_hide {
+	color: #e8e8e8 !important;
+}
+
+.popup_hide {
+	opacity: 0.8;
+}
+
+.popup_button:hover, 
+.popup_hide:hover {
+	color: #fafafa !important;
+	background-position: 0 -41px;
+}
+
+.popup_button:active, 
+.popup_hide:active {
+	color: #e8bb64 !important;
+	box-shadow: 1px 1px 10px 1px #e8bb64, 1px 1px 5px 0 rgba(0, 0, 0, 0.5), inset 0 1px 0 0 #b1a58c, inset 0 2px 0 0 #b6ac91, inset 0 -3px 0 0 rgba(0, 0, 0, 0.2) !important;
+	-moz-box-shadow: 1px 1px 10px 1px #e8bb64, 1px 1px 5px 0 rgba(0, 0, 0, 0.5), inset 0 1px 0 0 #b1a58c, inset 0 2px 0 0 #b6ac91, inset 0 -3px 0 0 rgba(0, 0, 0, 0.2) !important;
+	-webkit-box-shadow: 1px 1px 10px 1px #e8bb64, 1px 1px 5px 0 rgba(0, 0, 0, 0.5), inset 0 1px 0 0 #b1a58c, inset 0 2px 0 0 #b6ac91, inset 0 -3px 0 0 rgba(0, 0, 0, 0.2) !important;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.20) !important;
+	background-position: 0 -41px;
+}
+
+/* Tooltip */
+#tooltip, 
+.tooltip {
+	color: #fff;
+	border: 1px solid #777777;
+	border-top: 1px solid #cfcfcf;
+	box-shadow: 0 0 3px #000;
+	-moz-box-shadow: 0 0 3px #000;
+	-webkit-box-shadow: 0 0 3px #000;
+	background-color: #070c21;
+	background-color: rgba(7,12,33,0.9);
+}
+
+/* Form fields */
+textarea, 
+select, 
+input[type="text"],
+input[type="password"],
+input[type="email"], 
+input[type="file"] {
+	color: #5c5c5c;
+	border: 1px #adacaa solid;
+	padding: 8px;
+	font-size: 12px;
+	text-align: left;
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.30);
+	-moz-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.30);
+	-webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.30);
+	font-family: PTSansCaption;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: #EEEEEE;
+	background-color: rgba(240, 240, 240, 0.5);
+}
+
+textarea:focus, 
+select:focus, 
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus, 
+input[type="file"]:focus {
+	color: #464646;
+	border: 1px #afadac solid;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.30);
+	-moz-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.30);
+	-webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.30);
+}
+
+textarea {
+	width: auto;
+	height: auto;
+	resize: vertical !important;
+	transition: all ease-in-out 300ms;
+	-o-transition: all ease-in-out 300ms;
+	-ms-transition: all ease-in-out 300ms;
+	-moz-transition: all ease-in-out 300ms;
+	-webkit-transition: all ease-in-out 300ms;
+}
+
+select {
+	width: 80%;
+	margin: 5px;
+	cursor: pointer;
+	text-indent: 0.01px;
+	
+	user-select: none;
+	-o-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	
+	text-overflow: "";
+	
+	/* Removes Default style */
+	-o-appearance: none;
+	/* Removes Default style */
+	-khtml-appearance: none;
+	/* Removes Default Firefox style */
+	-moz-appearance: none;
+	/*Removes default chrome and safari style */
+	-webkit-appearance: none;
+	/* Removes default arrow from firefox */
+	
+	background-image: url(../images/misc/input-bg.png), url(../images/misc/select-arrow.png);
+	background-repeat: repeat-x, no-repeat;
+	background-position: right center, 98% 12px;
+	transition: color ease-in-out 300ms, border ease-in-out 300ms, box-shadow ease-in-out 300ms;
+	-o-transition: color ease-in-out 300ms, border ease-in-out 300ms, box-shadow ease-in-out 300ms;
+	-ms-transition: color ease-in-out 300ms, border ease-in-out 300ms, box-shadow ease-in-out 300ms;
+	-moz-transition: color ease-in-out 300ms, border ease-in-out 300ms, box-shadow ease-in-out 300ms;
+	-webkit-transition: color ease-in-out 300ms, border ease-in-out 300ms, box-shadow ease-in-out 300ms;
+}
+
+select::-ms-expand {
+	/* Removes IE arrow */
+    display: none;
+}
+
+select:focus {
+	background-position: right center, 98% -16px;
+}
+
+select option {
+	color: #808080;
+	font-size: 11px;
+	background-color: #EEEEEE;
+	background-color: rgba(240, 240, 240, 0.5);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"], 
+input[type="file"] {
+	width: 80%;
+	margin: 5px;
+	background-image: url(../images/misc/input-bg.png);
+	background-repeat: repeat-x;
+	background-position: right center;
+	transition: color ease-in-out 300ms, border ease-in-out 300ms, box-shadow ease-in-out 300ms;
+	-o-transition: color ease-in-out 300ms, border ease-in-out 300ms, box-shadow ease-in-out 300ms;
+	-ms-transition: color ease-in-out 300ms, border ease-in-out 300ms, box-shadow ease-in-out 300ms;
+	-moz-transition: color ease-in-out 300ms, border ease-in-out 300ms, box-shadow ease-in-out 300ms;
+	-webkit-transition: color ease-in-out 300ms, border ease-in-out 300ms, box-shadow ease-in-out 300ms;
+}
+
+/* Autofill style */
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.30), inset 0 0 0 100000px #EEEEEE;
+	-webkit-text-fill-color: #5c5c5c;
+}
+
+input:-webkit-autofill:focus {
+	-webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.30), inset 0 0 0 100000px #EEEEEE;
+	-webkit-text-fill-color: #464646;
+}
+
+*:input-placeholder				{color: #b2b2b2;}
+*:-o-input-placeholder			{color: #b2b2b2;}
+*:-ms-input-placeholder			{color: #b2b2b2;}
+*:-moz-placeholder				{color: #b2b2b2;}
+*::-webkit-input-placeholder	{color: #b2b2b2;}
+
+label {
+	color: #6a655d;
+	cursor: pointer;
+	font-size: 12px !important;
+	font-family: PTSansCaption;
+}
+
+/* Full-page styles (log in, register etc.) */
+.page_form input[type="submit"] {
+	margin-top: 20px;
+}
+
+/* First column in the #ucp_info */
+#ucp_info aside:first-child {
+	background-color: transparent;
+	background-image: url(../images/vertical_divider.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+#ucp_info aside:nth-child(3) {
+	background-color: transparent;
+	background-image: url(../images/vertical_divider.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#ucp_info aside:last-child {
+	border-right: none !important;
+}
+
+/* Second <td> of each row */
+#ucp_info td:nth-child(2) {
+	font-weight: bold;
+}
+
+/* =========== CMS: pool =========== */
+.poll_bar {
+	height: 13px;
+	border: 1px solid #080e14;
+	margin: 10px auto 20px auto;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background-color: #000000;
+}
+
+.poll_bar_fill {
+	height: 9px;
+	margin: 2px 0 0 2px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	background-image: url(../images/realm_bar.png);
+}
+
+/* Online players bar and realm bar (used on UCP, profiles) */
+#ucp_characters h1, 
+.online_realm_button {
+	color: #766e64;
+	padding: 15px;
+	font-size: 12px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(0, 0, 0, 0.02), inset 0 -25px 0 rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(0, 0, 0, 0.02), inset 0 -25px 0 rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(0, 0, 0, 0.02), inset 0 -25px 0 rgba(0, 0, 0, 0.1);
+	font-weight: bold;
+	font-family: NyalaRegular;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	letter-spacing: 0;
+	text-transform: uppercase;
+	background: rgba(0, 0, 0, 0.05);
+	transition: color 400ms, box-shadow 400ms, background 400ms;
+	-o-transition: color 400ms, box-shadow 400ms, background 400ms;
+	-ms-transition: color 400ms, box-shadow 400ms, background 400ms;
+	-moz-transition: color 400ms, box-shadow 400ms, background 400ms;
+	-webkit-transition: color 400ms, box-shadow 400ms, background 400ms;
+}
+
+#ucp_characters h1:hover, 
+.online_realm_button:hover {
+	box-shadow: 0 0 15px rgba(0,0,0,.6),inset 0 0 0 1px rgba(0, 0, 0, 0.02),inset 0 -25px 0 rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 15px rgba(0,0,0,.6),inset 0 0 0 1px rgba(0, 0, 0, 0.02),inset 0 -25px 0 rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,.6),inset 0 0 0 1px rgba(0, 0, 0, 0.02),inset 0 -25px 0 rgba(0, 0, 0, 0.1);
+	background: rgba(0 ,0, 0, 0.06);
+}
+
+#ucp_info td {
+	font-size: 10px;
+}
+
+/* Table style, used on vote panel, donate panel, online players etc. */
+.nice_table tr:first-child td {
+	color: #674242;
+	font-weight: normal;
+	box-shadow: inset 0 -2px 0 0 #BEBEBE;
+	-moz-box-shadow: inset 0 -2px 0 0 #BEBEBE;
+	-webkit-box-shadow: inset 0 -2px 0 0 #BEBEBE;
+}
+
+.nice_table tr:first-child td a {
+	color: #674242;
+}
+
+.nice_table td {
+	vertical-align: middle;
+}
+
+/* FusionEditor WYSIWYG field */
+.fusioneditor {
+	padding: 2px !important;
+	position: relative !important;
+	box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.24), 0 1px 0 rgba(255, 255, 255, 0.03) !important;
+	-moz-box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.24), 0 1px 0 rgba(255, 255, 255, 0.03) !important;
+	-webkit-box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.24), 0 1px 0 rgba(255, 255, 255, 0.03) !important;
+	border-radius: 4px !important;
+	-moz-border-radius: 4px !important;
+	-webkit-border-radius: 4px !important;
+	background-color: rgba(0, 0, 0, 0.35) !important;
+}
+
+.fusioneditor .fusioneditor_tools {
+	zoom: 1 !important;
+	color: #3D4346 !important;
+	border: none !important;
+	overflow: hidden !important;
+	text-align: left !important;
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.24), inset 0 0 0 1px rgba(255, 255, 255, 0.01), inset 0 -1px 0 rgba(255, 255, 255, 0.02) !important;
+	-moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.24), inset 0 0 0 1px rgba(255, 255, 255, 0.01), inset 0 -1px 0 rgba(255, 255, 255, 0.02) !important;
+	-webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.24), inset 0 0 0 1px rgba(255, 255, 255, 0.01), inset 0 -1px 0 rgba(255, 255, 255, 0.02) !important;
+	line-height: 0 !important;
+	border-radius: 3px !important;
+	-moz-border-radius: 3px !important;
+	-webkit-border-radius: 3px !important;
+	background-color: transparent;
+	background-image: url(../images/misc/bar-bg.png);
+	background-repeat: repeat;
+}
+
+.fusioneditor .fusioneditor_tools a {
+	zoom: 1 !important;
+	border: none !important;
+	display: inline-block !important;
+	overflow: hidden !important;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 1px 1px rgba(0, 0, 0, 0.3) !important;
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 1px 1px rgba(0, 0, 0, 0.3) !important;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 1px 1px rgba(0, 0, 0, 0.3) !important;
+	border-radius: 3px !important;
+	-moz-border-radius: 3px !important;
+	-webkit-border-radius: 3px !important;
+	background-color: rgba(155,150,137,.08) !important;
+	transition: all 0ms !important;
+	-o-transition: all 0ms !important;
+	-ms-transition: all 0ms !important;
+	-moz-transition: all 0ms !important;
+	-webkit-transition: all 0ms !important;
+}
+
+.fusioneditor .fusioneditor_tools a:hover {
+	border: none !important;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 1px 1px rgba(0, 0, 0, 0.3) !important;
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 1px 1px rgba(0, 0, 0, 0.3) !important;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03), 0 1px 1px rgba(0, 0, 0, 0.3) !important;
+	background-color: rgba(0,0,0,.2) !important;
+}
+
+.fusioneditor .fusioneditor_tools a:active {
+	background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.fusioneditor .fusioneditor_field {
+	color: #E5E4E4 !important;
+	border: 0 !important;
+	margin: 5px !important;
+	resize: none !important;
+	cursor: text !important;
+	outline: none !important;
+	padding: 0 !important;
+	font-size: 13px !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+	background-color: rgba(0,0,0,0) !important;
+}
+
+.fusioneditor .fusioneditor_field b {
+	font-weight: bold;
+}
+
+.fusioneditor .fusioneditor_toolbox {
+	border-top: 1px solid #080E14 !important;
+}
+
+.fusioneditor .fusioneditor_size {
+	color: #666;
+}
+
+.fusioneditor .fusioneditor_size:hover {
+	color: #fff;
+}
+
+.fusioneditor .fusioneditor_color:hover {
+	border: 1px solid transparent !important;
+}
+
+.fusioneditor .fusioneditor_color:active {
+	border: 1px solid transparent !important;
+}
+
+/* The pop up "autocomplete" box on private messages -> compose */
+#pm_username_autocomplete {
+	width: 99% !important;
+	margin: -10px 0 0 10px !important;
+	border: solid 1px #A9A9A9 !important;
+	background-color: #E0E0E0 !important;
+}
+
+#pm_username_autocomplete a {
+	border-bottom: 1px solid #A9A9A9 !important;
+}
+
+#pm_username_autocomplete a:last-child {
+	border: none !important;
+}
+
+#ucp_buttons {
+	width: auto;
+	margin: 0 0 -15px 0 !important;
+}
+
+#ucp_buttons a {
+	margin: 0 0 15px 15px !important;
+	border-radius: 5px 0 5px 0;
+	-moz-border-radius: 5px 0 5px 0;
+	-webkit-border-radius: 5px 0 5px 0;
+}
+
+#armory_top h1 {
+	color: #424242;
+}
+
+#avatar_page center {
+	color: #424242;
+}
+
+#armory_stats td {
+	font-size: 12px !important;
+}

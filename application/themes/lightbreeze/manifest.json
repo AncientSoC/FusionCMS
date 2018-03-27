@@ -1,0 +1,19 @@
+{
+	"name": "Lightbreeze",
+	"author": "E. Darksider, ZafireHD",
+	"website": "http://code-path.com",
+	
+	"favicon": "favicon.ico",
+	
+	"normal_avatar": "avatars/0_normal.png",
+	"small_avatar": "avatars/0_small.png",
+	
+	"slider_text": {
+		"next": "",
+		"previous": ""
+	},
+	
+	"slider_id": "slider_container",
+	"screenshot": "images/screenshot.jpg",
+	"blank_header": ""
+}

@@ -1,0 +1,165 @@
+/*-------------------------------------------------------------------------*/
+/*	Selectbox plugin LIGHTBREEZE skin by E. Darksider
+/*-------------------------------------------------------------------------*/
+.sbHolder {
+	width: 80%;
+	height: 18px;
+	cursor: pointer;
+	margin: 5px;
+	padding: 8px;
+	position: relative;
+	font-size: 12px;
+	text-align: left;
+	font-family: PTSansCaption;
+}
+
+.sbHolder a {
+	float: none !important;
+	margin: 0 !important;
+}
+
+.sbHolder .sbSelector {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	color: #5c5c5c;
+	border: 1px #adacaa solid;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.30);
+	-moz-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.30);
+	-webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.30);
+	line-height: 34px;
+	text-indent: 10px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: #EEEEEE;
+	background-color: rgba(240, 240, 240, 0.5);
+	background-image: url(../images/misc/input-bg.png);
+	background-repeat: repeat-x;
+	background-position: right center;
+	transition: color ease-in-out 300ms, border ease-in-out 300ms, box-shadow ease-in-out 300ms;
+	-o-transition: color ease-in-out 300ms, border ease-in-out 300ms, box-shadow ease-in-out 300ms;
+	-ms-transition: color ease-in-out 300ms, border ease-in-out 300ms, box-shadow ease-in-out 300ms;
+	-moz-transition: color ease-in-out 300ms, border ease-in-out 300ms, box-shadow ease-in-out 300ms;
+	-webkit-transition: color ease-in-out 300ms, border ease-in-out 300ms, box-shadow ease-in-out 300ms;
+}
+
+.sbHolder .sbSelector:focus {
+	color: #464646;
+	border: 1px #afadac solid;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.30);
+	-moz-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.30);
+	-webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.30);
+}
+
+.sbHolder .sbToggle {
+	width: 34px;
+	height: 100%;
+	top: 0;
+	right: 0;
+	z-index: 9;
+	display: block;
+	position: absolute;
+	background-color: transparent;
+	background-image: url(../images/misc/select-arrow.png);
+	background-repeat: no-repeat;
+	background-position: 8px 13px;
+}
+
+.sbHolder .sbToggle.sbToggleOpen {
+	background-position: 8px -15px;
+}
+
+.sbHolder .sbOptions {
+	width: 100.5%;
+	max-height: 112px !important;
+	top: 0;
+	left: 0;
+	margin: 2px 0 0 0;
+	cursor: default;
+	padding: 0;
+	z-index: 99;
+	position: absolute;
+	overflow-y: auto;
+}
+
+.sbHolder .sbOptions li {
+	width: 100%;
+}
+
+.sbHolder .sbOptions li a {
+	width: 100%;
+	height: 28px;
+	color: #808080;
+	border: 1px #c2c1c0 solid;
+	display: block;
+	padding: 0 8px;
+	overflow: hidden;
+	line-height: 26px;
+	font-family: PTSansCaption;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	text-transform: capitalize;
+	background-color: #EEEEEE;
+	transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-webkit-transition: color 200ms ease-in-out;
+}
+
+.sbHolder .sbOptions li a:before {
+	width: 100%;
+	height: 1px;
+	left: 0;
+	bottom: 0;
+	content: "";
+	position: absolute;
+	background-color: #989898;
+}
+
+.sbHolder .sbOptions li a:hover,
+.sbHolder .sbOptions li a:focus,
+.sbHolder .sbOptions li a.sbFocus {
+	color: #71110d;
+}
+
+.sbHolder .sbOptions .sbDisabled {	
+	color: #000000;
+	border: 1px #c2c1c0 solid;
+	display: block;
+	padding: 7px 8px;
+	font-family: PTSansCaption;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	text-transform: capitalize;
+	background-color: #ffffff;
+}
+
+.sbHolder .sbOptions .sbGroup {
+	color: #B31111;
+	border: 1px #c2c1c0 solid;
+	display: block;
+	padding: 7px 8px;
+	font-family: PTSansCaption;
+	text-transform: capitalize;
+	background-color: #E2E2E2;
+}
+
+.sbHolder .sbOptions .sbSub {
+	padding-left: 15px;
+}
+
+.sbHolderDisabled {
+	opacity: .8;
+}
+
+.sbHolderDisabled .sbHolder {}
+
+.sbHolderDisabled .sbToggle {}

@@ -1,0 +1,75 @@
+/*-------------------------------------------------------------------------*/
+/*	iCheck plugin LIGHTBREEZE skin by E. Darksider
+/*-------------------------------------------------------------------------*/
+.icheckbox, 
+.iradio {
+	width: 17px;
+	height: 17px;
+	margin: 0;
+	cursor: pointer;
+	padding: 0;
+	display: inline-block;
+	box-shadow: inset -2px -2px 4px 0 rgba(0, 0, 0, 0.40), 2px 2px 4px 0 rgba(0, 0, 0, 0.20);
+	-moz-box-shadow: inset -2px -2px 4px 0 rgba(0, 0, 0, 0.40), 2px 2px 4px 0 rgba(0, 0, 0, 0.20);
+	-webkit-box-shadow: inset -2px -2px 4px 0 rgba(0, 0, 0, 0.40), 2px 2px 4px 0 rgba(0, 0, 0, 0.20);
+	vertical-align: middle;	
+	background-color: transparent;
+	background-image: url(../images/misc/radio-checkbox.png);
+	background-repeat: no-repeat;
+}
+
+.icheckbox {
+	margin: -3px 0 0 0;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.icheckbox {
+	background-position: -20px 0;
+}
+
+.icheckbox.hover {
+	background-position: -20px -17px;
+}
+
+.icheckbox.checked {
+	background-position: -20px -34px;
+}
+
+.icheckbox.disabled {
+	cursor: default;
+	background-position: -20px -51px;
+}
+
+.icheckbox.checked.disabled {
+	background-position: -20px -68px;
+}
+
+.iradio {
+	margin: 0 10px 0 0;
+    border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+
+.iradio {
+	background-position: 0 0;
+}
+
+.iradio.hover {
+	background-position: 0 -17px;
+}
+
+.iradio.checked {
+	background-position: 0 -34px;
+}
+
+.iradio.disabled {
+	cursor: default;
+	background-position: 0 -51px;
+}
+
+.iradio.checked.disabled {
+	background-position: 0 -68px;
+}

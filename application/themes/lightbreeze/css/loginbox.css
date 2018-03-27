@@ -1,0 +1,121 @@
+/*-------------------------------------------------------------------------*/
+/*	Login Box LIGHTBREEZE skin by E. Darksider
+/*-------------------------------------------------------------------------*/
+#login-box-container {
+	width: 100% !important;
+	height: 100% !important;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	display: none;
+	z-index: 999999;
+	position: fixed;
+	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#login-box-container .login-box-holder {
+	width: 248px;
+	height: 197px;
+	margin: 0 auto;
+	padding: 3px;
+	overflow: hidden;
+	position: relative;
+	background-position: -129px -85px;
+}
+
+#login-box-container .login-box-holder .login-box-head {
+	width: 65px;
+	float: right;
+	color: #f5c338;
+	display: block;
+	padding: 8px 0;
+	font-size: 16px;
+	text-align: center;
+	font-family: NyalaRegular;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+#login-box-container .login-box-holder .login-box-body {
+	padding: 15px;
+	font-size: 13px;
+}
+
+.login-box-body input[type='text'], 
+.login-box-body input[type='password'] {
+	width: 92%;
+	color: #e3e3e3;
+	border: 1px #fff5c0 solid;
+	margin: 0 auto 10px auto;
+	display: block;
+	box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.4), inset 0 18px 0 0 rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.4), inset 0 18px 0 0 rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.4), inset 0 18px 0 0 rgba(0, 0, 0, 0.1);
+	background-color: rgba(0, 0, 0, 0.4);
+	background-image: none;
+}
+
+.login-box-body input[type='text']:focus, 
+.login-box-body input[type='password']:focus {
+	color: #f0f0f0;
+}
+
+/* Autofill style */
+.login-box-body input:-webkit-autofill {
+	-webkit-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.4), inset 0 18px 0 0 rgba(0, 0, 0, 0.1), inset 0 0 0 100000px #5B534D;
+	-webkit-text-fill-color: #e3e3e3;
+}
+
+.login-box-body input:-webkit-autofill:focus {
+	-webkit-box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.4), inset 0 18px 0 0 rgba(0, 0, 0, 0.1), inset 0 0 0 100000px #5B534D;
+	-webkit-text-fill-color: #f0f0f0;
+}
+
+.login-box-body *:input-placeholder			{color: #cccbcb;}
+.login-box-body *:-o-input-placeholder		{color: #cccbcb;}
+.login-box-body *:-ms-input-placeholder		{color: #cccbcb;}
+.login-box-body *:-moz-placeholder			{color: #cccbcb;}
+.login-box-body *::-webkit-input-placeholder	{color: #cccbcb;}
+
+.login-box-row {
+	margin: 5px 0 0 0;
+}
+
+.login-box-row input[type='submit'] {
+	width: 97px;
+	height: 30px;
+	max-height: 30px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	box-shadow: none;
+	line-height: 30px;
+	border-radius: 0;
+	background-position: -233px -48px;
+}
+
+.login-box-row .forgot_pw {
+	color: #ffffff;
+	top: -2px;
+	left: 12px;
+	font-size: 10px;
+	font-family: PTSansCaption;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	text-transform: capitalize;
+}
+
+.login-box-row .forgot_pw:before {
+	top: -9px;
+	left: -10px;
+	color: #000000;
+	content: "\0203A";
+	position: absolute;
+	font-size: 18px;
+	font-family: "Georgia", "Apple Symbols", serif;
+}
+
+.login-box-row .forgot_pw:hover {
+	color: #eee;
+}
